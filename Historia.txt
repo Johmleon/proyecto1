@@ -1,3 +1,7 @@
 esta es la historia el prologo del proyecto.
 
 contando con 26 años comenzando los primeros pasos en la programacion.
+
+cuando haces un commit y no le pones comentario, te salta una ventana, donde te sugiere que
+le coloques un mensaje, para salir de esa venta tienes que pulsar
+esc + shift + z + z.
