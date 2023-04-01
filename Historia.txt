@@ -11,7 +11,7 @@ git diff a + b para comparar cambios.
 
 para regresar el tiempo:
 
-
+esto es lo que voy a borrar
 
 cuando haces un commit y no le pones comentario, te salta una ventana, donde te sugiere que
 le coloques un mensaje, para salir de esa venta tienes que pulsar
