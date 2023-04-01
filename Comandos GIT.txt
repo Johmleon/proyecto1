@@ -1,8 +1,12 @@
-esta es la historia el prologo del proyecto.
+COMANDOS DE GIT:
 
-contando con 26 años comenzando los primeros pasos en la programacion.
+pwd: indica en que carpeta se encuentra
 
 git init: iniciar git en una carpeta.
+
+git config -l : ver configuraciones en lista.
+
+git config --global user.email "email" : cambiar email de usuario.
 
 git add para añadir el archivo a la carpeta.
 
@@ -71,3 +75,24 @@ git reset id-commit: Nos lleva a cualquier commit no importa la rama, ya que ide
 
 git checkout rama-o-id-commit: Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
 
+Crear llaves SSH:
+
+Es necesario estar en el home de GIT
+
+ssh-keygen -t rsa -b 4096(complejidad de la llave) -C "email" : se usa para crear una llave
+
+preferiblemente guardar en la misma carpeta que recomienda
+colocar passphrase
+te da una fingerprint y una randomart.
+
+verificar que el servicio de llaves esté corriendo (Windows y Linux):
+
+eval $(ssh-agent -s)
+saldra un pid con un codigo
+
+agregar la llave a nuestro sistema:
+
+recordar ruta de la carpeta
+usar ~ para ir al directorio users
+
+ssh-add ~/ .ssh/id_rsa
