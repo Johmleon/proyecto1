@@ -43,6 +43,15 @@ git rm --force: elimina de local y de disco duro
 
 Comandos para trabajo remoto con GIT:
 
+git remote add origin + url del repositorio Github : añadimos repo remoto.
+
+git remote : para verificar que se haya subido el repositorio, te muestra origin.
+
+git remote -v 
+te da como resultado dos origin un fetch para traer cosas y un push para enviar cosas.
+
+git push origin master (o main): enviar al origin la rama master.
+
 git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión 
 de la rama principal y todo el historial de cambios en la carpeta .git.
 
