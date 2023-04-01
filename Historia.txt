@@ -3,16 +3,29 @@ esta es la historia el prologo del proyecto.
 contando con 26 años comenzando los primeros pasos en la programacion.
 
 git init: iniciar git en una carpeta.
+
 git add para añadir el archivo a la carpeta.
+
 git commit -m "comentario" para subir el archivo al repo.
-git show para mostrar cambios.
-git log para mostrar registro.
-git diff a + b para comparar cambios.
-
-para regresar el tiempo:
-
-esto es lo que voy a borrar
-
 cuando haces un commit y no le pones comentario, te salta una ventana, donde te sugiere que
 le coloques un mensaje, para salir de esa venta tienes que pulsar
 esc + shift + z + z.
+
+git show para mostrar cambios.
+
+git log para mostrar registro.
+
+git diff a + b para comparar cambios.
+
+git log --stat se usa para mostrar exactamente los cambios realizados.
+pulsa Q para salir.
+
+para regresar el tiempo:
+git reset --hard
+git reset --soft
+
+Como volver a una version anterior:
+git checkout + commit del archivo + nombre del archivo: se utiliza para ver como era el archivo
+para volver a la version que se tenia se tiene que colocar 
+git checkout master + nombre del archivo.
+
