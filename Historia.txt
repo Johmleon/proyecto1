@@ -7,7 +7,7 @@ git add para añadir el archivo a la carpeta.
 git commit -m "comentario" para subir el archivo al repo.
 git show para mostrar cambios.
 git log para mostrar registro.
-git diff a b para comparar cambios.
+git diff a + b para comparar cambios.
 
 para regresar el tiempo:
 
